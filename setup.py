@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="django-toon-rest",
-    version="0.1.1",
+    version="0.1.3",
     author="Sebastian Martin Artaza Saade",
     author_email="martin.artaza@gmail.com",
     description="Django REST Framework renderer for TOON format",

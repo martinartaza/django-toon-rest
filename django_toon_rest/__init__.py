@@ -3,9 +3,11 @@ django-toon-rest
 A Django REST Framework renderer for TOON format.
 """
 
-__version__ = "0.1.1"
+__version__ = "0.1.3"
+# Convenience alias following common patterns
+version = __version__
 
-from django_toon_rest.renderers import TOONRenderer
-
-__all__ = ['TOONRenderer']
+# Note: Avoid importing renderers here to prevent requiring Django settings
+# on simple `import django_toon_rest`. Users should import directly from
+# `django_toon_rest.renderers`.
 
