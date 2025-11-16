@@ -1,0 +1,3 @@
+djangorestframework>=3.0.0
+json-toon>=1.0.0
+
